@@ -1,0 +1,1593 @@
+{
+	"id": "bf3ce645-d988-4f29-8f6a-c8b41708dcdd",
+	"name": "Elagi API Testing",
+	"timestamp": "2025-07-09T19:21:05.526Z",
+	"collection_id": "44884889-f3b1c1b4-41a0-4e77-bb82-d8111965789b",
+	"folder_id": 0,
+	"environment_id": "44884889-0682d21c-4b67-412a-9d38-2a1bc314d20f",
+	"totalPass": 343,
+	"delay": "500",
+	"persist": true,
+	"status": "finished",
+	"startedAt": "2025-07-09T19:19:24.318Z",
+	"totalFail": 2,
+	"results": [
+		{
+			"id": "26096b4e-b4dc-43f0-b353-0ba6f6b727ca",
+			"name": "register",
+			"url": "https://elagi.semicorner.com/api/register",
+			"time": 194,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Response time is less than 3 sec": true,
+				"Account created": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 5,
+					"fail": 0
+				},
+				"Response time is less than 3 sec": {
+					"pass": 5,
+					"fail": 0
+				},
+				"Account created": {
+					"pass": 5,
+					"fail": 0
+				}
+			},
+			"times": [
+				636,
+				215,
+				204,
+				217,
+				194
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Response time is less than 3 sec": true,
+					"Account created": true
+				},
+				{
+					"Status code is 200": true,
+					"Response time is less than 3 sec": true,
+					"Account created": true
+				},
+				{
+					"Status code is 200": true,
+					"Response time is less than 3 sec": true,
+					"Account created": true
+				},
+				{
+					"Status code is 200": true,
+					"Response time is less than 3 sec": true,
+					"Account created": true
+				},
+				{
+					"Status code is 200": true,
+					"Response time is less than 3 sec": true,
+					"Account created": true
+				}
+			]
+		},
+		{
+			"id": "59a94ade-51ee-4759-a502-c3ac0cfc7450",
+			"name": "VerifyOTP",
+			"url": "https://elagi.semicorner.com/api/verify-otp",
+			"time": 281,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Response time is less than 1 sec": true,
+				"OTP verified": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 5,
+					"fail": 0
+				},
+				"Response time is less than 1 sec": {
+					"pass": 5,
+					"fail": 0
+				},
+				"OTP verified": {
+					"pass": 5,
+					"fail": 0
+				}
+			},
+			"times": [
+				276,
+				266,
+				325,
+				439,
+				281
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Response time is less than 1 sec": true,
+					"OTP verified": true
+				},
+				{
+					"Status code is 200": true,
+					"Response time is less than 1 sec": true,
+					"OTP verified": true
+				},
+				{
+					"Status code is 200": true,
+					"Response time is less than 1 sec": true,
+					"OTP verified": true
+				},
+				{
+					"Status code is 200": true,
+					"Response time is less than 1 sec": true,
+					"OTP verified": true
+				},
+				{
+					"Status code is 200": true,
+					"Response time is less than 1 sec": true,
+					"OTP verified": true
+				}
+			]
+		},
+		{
+			"id": "ce715590-24fd-4130-a650-f0ee57f081ac",
+			"name": "Login",
+			"url": "https://elagi.semicorner.com/api/login",
+			"time": 254,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Response time is less than 1 sec": true,
+				"Login successfully": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 5,
+					"fail": 0
+				},
+				"Response time is less than 1 sec": {
+					"pass": 5,
+					"fail": 0
+				},
+				"Login successfully": {
+					"pass": 5,
+					"fail": 0
+				}
+			},
+			"times": [
+				361,
+				389,
+				268,
+				261,
+				254
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Response time is less than 1 sec": true,
+					"Login successfully": true
+				},
+				{
+					"Status code is 200": true,
+					"Response time is less than 1 sec": true,
+					"Login successfully": true
+				},
+				{
+					"Status code is 200": true,
+					"Response time is less than 1 sec": true,
+					"Login successfully": true
+				},
+				{
+					"Status code is 200": true,
+					"Response time is less than 1 sec": true,
+					"Login successfully": true
+				},
+				{
+					"Status code is 200": true,
+					"Response time is less than 1 sec": true,
+					"Login successfully": true
+				}
+			]
+		},
+		{
+			"id": "d9796037-e74d-403a-a3b9-7877bd69cb99",
+			"name": "Forget Password",
+			"url": "https://elagi.semicorner.com/api/forgot-password",
+			"time": 208,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Response time is less than 1 sec": true,
+				"OTP generated": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 5,
+					"fail": 0
+				},
+				"Response time is less than 1 sec": {
+					"pass": 5,
+					"fail": 0
+				},
+				"OTP generated": {
+					"pass": 5,
+					"fail": 0
+				}
+			},
+			"times": [
+				352,
+				268,
+				200,
+				394,
+				208
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Response time is less than 1 sec": true,
+					"OTP generated": true
+				},
+				{
+					"Status code is 200": true,
+					"Response time is less than 1 sec": true,
+					"OTP generated": true
+				},
+				{
+					"Status code is 200": true,
+					"Response time is less than 1 sec": true,
+					"OTP generated": true
+				},
+				{
+					"Status code is 200": true,
+					"Response time is less than 1 sec": true,
+					"OTP generated": true
+				},
+				{
+					"Status code is 200": true,
+					"Response time is less than 1 sec": true,
+					"OTP generated": true
+				}
+			]
+		},
+		{
+			"id": "63e709cf-a4e0-419e-90f7-af20afcef075",
+			"name": "Password Reset",
+			"url": "https://elagi.semicorner.com/api/reset-password",
+			"time": 254,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Response time is less than 1 sec": true,
+				"Password reset successful message": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 5,
+					"fail": 0
+				},
+				"Response time is less than 1 sec": {
+					"pass": 5,
+					"fail": 0
+				},
+				"Password reset successful message": {
+					"pass": 5,
+					"fail": 0
+				}
+			},
+			"times": [
+				356,
+				348,
+				299,
+				445,
+				254
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Response time is less than 1 sec": true,
+					"Password reset successful message": true
+				},
+				{
+					"Status code is 200": true,
+					"Response time is less than 1 sec": true,
+					"Password reset successful message": true
+				},
+				{
+					"Status code is 200": true,
+					"Response time is less than 1 sec": true,
+					"Password reset successful message": true
+				},
+				{
+					"Status code is 200": true,
+					"Response time is less than 1 sec": true,
+					"Password reset successful message": true
+				},
+				{
+					"Status code is 200": true,
+					"Response time is less than 1 sec": true,
+					"Password reset successful message": true
+				}
+			]
+		},
+		{
+			"id": "68b06549-1d45-4bf7-ab8a-9bc4540c2fa3",
+			"name": "Profile",
+			"url": "https://elagi.semicorner.com/api/user",
+			"time": 220,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Response time is less than 1 sec": true,
+				"Fullname is correct": true,
+				"Email is correct": true,
+				"Mobile is correct": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 5,
+					"fail": 0
+				},
+				"Response time is less than 1 sec": {
+					"pass": 5,
+					"fail": 0
+				},
+				"Fullname is correct": {
+					"pass": 5,
+					"fail": 0
+				},
+				"Email is correct": {
+					"pass": 5,
+					"fail": 0
+				},
+				"Mobile is correct": {
+					"pass": 5,
+					"fail": 0
+				}
+			},
+			"times": [
+				190,
+				230,
+				197,
+				373,
+				220
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Response time is less than 1 sec": true,
+					"Fullname is correct": true,
+					"Email is correct": true,
+					"Mobile is correct": true
+				},
+				{
+					"Status code is 200": true,
+					"Response time is less than 1 sec": true,
+					"Fullname is correct": true,
+					"Email is correct": true,
+					"Mobile is correct": true
+				},
+				{
+					"Status code is 200": true,
+					"Response time is less than 1 sec": true,
+					"Fullname is correct": true,
+					"Email is correct": true,
+					"Mobile is correct": true
+				},
+				{
+					"Status code is 200": true,
+					"Response time is less than 1 sec": true,
+					"Fullname is correct": true,
+					"Email is correct": true,
+					"Mobile is correct": true
+				},
+				{
+					"Status code is 200": true,
+					"Response time is less than 1 sec": true,
+					"Fullname is correct": true,
+					"Email is correct": true,
+					"Mobile is correct": true
+				}
+			]
+		},
+		{
+			"id": "8793f213-efc2-48a2-a7dd-fc20ba3e78cb",
+			"name": "Update Profile",
+			"url": "https://elagi.semicorner.com/api/user",
+			"time": 182,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Response time is less than 1 sec": true,
+				"Fullname is correct": true,
+				"Fullname update is correct": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 5,
+					"fail": 0
+				},
+				"Response time is less than 1 sec": {
+					"pass": 5,
+					"fail": 0
+				},
+				"Fullname is correct": {
+					"pass": 5,
+					"fail": 0
+				},
+				"Fullname update is correct": {
+					"pass": 5,
+					"fail": 0
+				}
+			},
+			"times": [
+				221,
+				191,
+				196,
+				363,
+				182
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Response time is less than 1 sec": true,
+					"Fullname is correct": true,
+					"Fullname update is correct": true
+				},
+				{
+					"Status code is 200": true,
+					"Response time is less than 1 sec": true,
+					"Fullname is correct": true,
+					"Fullname update is correct": true
+				},
+				{
+					"Status code is 200": true,
+					"Response time is less than 1 sec": true,
+					"Fullname is correct": true,
+					"Fullname update is correct": true
+				},
+				{
+					"Status code is 200": true,
+					"Response time is less than 1 sec": true,
+					"Fullname is correct": true,
+					"Fullname update is correct": true
+				},
+				{
+					"Status code is 200": true,
+					"Response time is less than 1 sec": true,
+					"Fullname is correct": true,
+					"Fullname update is correct": true
+				}
+			]
+		},
+		{
+			"id": "10bed24d-7a22-4959-920c-84f12a9c1f2f",
+			"name": "Product Medicine",
+			"url": "https://elagi.semicorner.com/api/medicines?page=2",
+			"time": 206,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Response time is less than 3 sec": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 5,
+					"fail": 0
+				},
+				"Response time is less than 3 sec": {
+					"pass": 5,
+					"fail": 0
+				}
+			},
+			"times": [
+				289,
+				242,
+				202,
+				360,
+				206
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Response time is less than 3 sec": true
+				},
+				{
+					"Status code is 200": true,
+					"Response time is less than 3 sec": true
+				},
+				{
+					"Status code is 200": true,
+					"Response time is less than 3 sec": true
+				},
+				{
+					"Status code is 200": true,
+					"Response time is less than 3 sec": true
+				},
+				{
+					"Status code is 200": true,
+					"Response time is less than 3 sec": true
+				}
+			]
+		},
+		{
+			"id": "8da75110-70ec-4b07-a54c-af958b86850e",
+			"name": "Specific category",
+			"url": "https://elagi.semicorner.com/api/medicines/category/Skin%20Diseases?page=1",
+			"time": 223,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Response time is less than 3 sec": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 5,
+					"fail": 0
+				},
+				"Response time is less than 3 sec": {
+					"pass": 5,
+					"fail": 0
+				}
+			},
+			"times": [
+				187,
+				260,
+				172,
+				218,
+				223
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Response time is less than 3 sec": true
+				},
+				{
+					"Status code is 200": true,
+					"Response time is less than 3 sec": true
+				},
+				{
+					"Status code is 200": true,
+					"Response time is less than 3 sec": true
+				},
+				{
+					"Status code is 200": true,
+					"Response time is less than 3 sec": true
+				},
+				{
+					"Status code is 200": true,
+					"Response time is less than 3 sec": true
+				}
+			]
+		},
+		{
+			"id": "b0ea3378-3cbc-4798-ad78-24b06ebd133a",
+			"name": "Get feedbacks",
+			"url": "https://elagi.semicorner.com/api/feedback",
+			"time": 240,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Response time is less than 3 sec": true,
+				"Feedback name is correct": true,
+				"id is correct": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 5,
+					"fail": 0
+				},
+				"Response time is less than 3 sec": {
+					"pass": 5,
+					"fail": 0
+				},
+				"Feedback name is correct": {
+					"pass": 5,
+					"fail": 0
+				},
+				"id is correct": {
+					"pass": 5,
+					"fail": 0
+				}
+			},
+			"times": [
+				171,
+				389,
+				221,
+				224,
+				240
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Response time is less than 3 sec": true,
+					"Feedback name is correct": true,
+					"id is correct": true
+				},
+				{
+					"Status code is 200": true,
+					"Response time is less than 3 sec": true,
+					"Feedback name is correct": true,
+					"id is correct": true
+				},
+				{
+					"Status code is 200": true,
+					"Response time is less than 3 sec": true,
+					"Feedback name is correct": true,
+					"id is correct": true
+				},
+				{
+					"Status code is 200": true,
+					"Response time is less than 3 sec": true,
+					"Feedback name is correct": true,
+					"id is correct": true
+				},
+				{
+					"Status code is 200": true,
+					"Response time is less than 3 sec": true,
+					"Feedback name is correct": true,
+					"id is correct": true
+				}
+			]
+		},
+		{
+			"id": "05ec860e-582c-4529-88c4-d37155633f7d",
+			"name": "Post request",
+			"url": "https://elagi.semicorner.com/api/feedback",
+			"time": 201,
+			"responseCode": {
+				"code": 201,
+				"name": "Created"
+			},
+			"tests": {
+				"Status code is 201": true,
+				"Response time is less than 3 sec": true,
+				"Your test name": true
+			},
+			"testPassFailCounts": {
+				"Status code is 201": {
+					"pass": 5,
+					"fail": 0
+				},
+				"Response time is less than 3 sec": {
+					"pass": 5,
+					"fail": 0
+				},
+				"Your test name": {
+					"pass": 5,
+					"fail": 0
+				}
+			},
+			"times": [
+				201,
+				230,
+				264,
+				159,
+				201
+			],
+			"allTests": [
+				{
+					"Status code is 201": true,
+					"Response time is less than 3 sec": true,
+					"Your test name": true
+				},
+				{
+					"Status code is 201": true,
+					"Response time is less than 3 sec": true,
+					"Your test name": true
+				},
+				{
+					"Status code is 201": true,
+					"Response time is less than 3 sec": true,
+					"Your test name": true
+				},
+				{
+					"Status code is 201": true,
+					"Response time is less than 3 sec": true,
+					"Your test name": true
+				},
+				{
+					"Status code is 201": true,
+					"Response time is less than 3 sec": true,
+					"Your test name": true
+				}
+			]
+		},
+		{
+			"id": "b3556401-95a1-4b4a-8d83-4f5d5bf2c690",
+			"name": "Post Contact",
+			"url": "https://elagi.semicorner.com/api/contact/save",
+			"time": 205,
+			"responseCode": {
+				"code": 201,
+				"name": "Created"
+			},
+			"tests": {
+				"Status code is 201": true,
+				"Response time is less than 3 sec": true,
+				"Contact confirm message is correct": true,
+				"Contact message is correct": true
+			},
+			"testPassFailCounts": {
+				"Status code is 201": {
+					"pass": 5,
+					"fail": 0
+				},
+				"Response time is less than 3 sec": {
+					"pass": 5,
+					"fail": 0
+				},
+				"Contact confirm message is correct": {
+					"pass": 5,
+					"fail": 0
+				},
+				"Contact message is correct": {
+					"pass": 5,
+					"fail": 0
+				}
+			},
+			"times": [
+				193,
+				239,
+				210,
+				263,
+				205
+			],
+			"allTests": [
+				{
+					"Status code is 201": true,
+					"Response time is less than 3 sec": true,
+					"Contact confirm message is correct": true,
+					"Contact message is correct": true
+				},
+				{
+					"Status code is 201": true,
+					"Response time is less than 3 sec": true,
+					"Contact confirm message is correct": true,
+					"Contact message is correct": true
+				},
+				{
+					"Status code is 201": true,
+					"Response time is less than 3 sec": true,
+					"Contact confirm message is correct": true,
+					"Contact message is correct": true
+				},
+				{
+					"Status code is 201": true,
+					"Response time is less than 3 sec": true,
+					"Contact confirm message is correct": true,
+					"Contact message is correct": true
+				},
+				{
+					"Status code is 201": true,
+					"Response time is less than 3 sec": true,
+					"Contact confirm message is correct": true,
+					"Contact message is correct": true
+				}
+			]
+		},
+		{
+			"id": "b1ad01a5-9ad2-419c-a0d5-a0ce8d4b6598",
+			"name": "Sort price",
+			"url": "https://elagi.semicorner.com/api/medicines?page=1&sort=price_asc",
+			"time": 202,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Response time is less than 3 sec": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 5,
+					"fail": 0
+				},
+				"Response time is less than 3 sec": {
+					"pass": 5,
+					"fail": 0
+				}
+			},
+			"times": [
+				231,
+				225,
+				197,
+				398,
+				202
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Response time is less than 3 sec": true
+				},
+				{
+					"Status code is 200": true,
+					"Response time is less than 3 sec": true
+				},
+				{
+					"Status code is 200": true,
+					"Response time is less than 3 sec": true
+				},
+				{
+					"Status code is 200": true,
+					"Response time is less than 3 sec": true
+				},
+				{
+					"Status code is 200": true,
+					"Response time is less than 3 sec": true
+				}
+			]
+		},
+		{
+			"id": "2ae3121c-b0da-4af0-b1b7-46e10ff1bdb9",
+			"name": "rare med request",
+			"url": "https://elagi.semicorner.com/api/store-rare-medicine",
+			"time": 213,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Response time is less than 3 sec": true,
+				"Rare Med message success!": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 5,
+					"fail": 0
+				},
+				"Response time is less than 3 sec": {
+					"pass": 5,
+					"fail": 0
+				},
+				"Rare Med message success!": {
+					"pass": 5,
+					"fail": 0
+				}
+			},
+			"times": [
+				380,
+				210,
+				213,
+				242,
+				213
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Response time is less than 3 sec": true,
+					"Rare Med message success!": true
+				},
+				{
+					"Status code is 200": true,
+					"Response time is less than 3 sec": true,
+					"Rare Med message success!": true
+				},
+				{
+					"Status code is 200": true,
+					"Response time is less than 3 sec": true,
+					"Rare Med message success!": true
+				},
+				{
+					"Status code is 200": true,
+					"Response time is less than 3 sec": true,
+					"Rare Med message success!": true
+				},
+				{
+					"Status code is 200": true,
+					"Response time is less than 3 sec": true,
+					"Rare Med message success!": true
+				}
+			]
+		},
+		{
+			"id": "3b51e3bf-a458-46f0-84ec-88a8dfad7404",
+			"name": "Add to wishlist",
+			"url": "https://elagi.semicorner.com/api/favorites/add/1",
+			"time": 309,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Response time is less than 3 sec": true,
+				"Add to favorites successfully": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 4,
+					"fail": 1
+				},
+				"Response time is less than 3 sec": {
+					"pass": 5,
+					"fail": 0
+				},
+				"Add to favorites successfully": {
+					"pass": 4,
+					"fail": 1
+				}
+			},
+			"times": [
+				192,
+				243,
+				210,
+				194,
+				309
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Response time is less than 3 sec": true,
+					"Add to favorites successfully": true
+				},
+				{
+					"Status code is 200": true,
+					"Response time is less than 3 sec": true,
+					"Add to favorites successfully": true
+				},
+				{
+					"Status code is 200": true,
+					"Response time is less than 3 sec": true,
+					"Add to favorites successfully": true
+				},
+				{
+					"Status code is 200": false,
+					"Response time is less than 3 sec": true,
+					"Add to favorites successfully": false
+				},
+				{
+					"Status code is 200": true,
+					"Response time is less than 3 sec": true,
+					"Add to favorites successfully": true
+				}
+			]
+		},
+		{
+			"id": "da5f9789-2c06-4944-af02-34089213ba11",
+			"name": "My Fav products",
+			"url": "https://elagi.semicorner.com/api/favorites",
+			"time": 187,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Response time is less than 3 sec": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 5,
+					"fail": 0
+				},
+				"Response time is less than 3 sec": {
+					"pass": 5,
+					"fail": 0
+				}
+			},
+			"times": [
+				170,
+				201,
+				254,
+				260,
+				187
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Response time is less than 3 sec": true
+				},
+				{
+					"Status code is 200": true,
+					"Response time is less than 3 sec": true
+				},
+				{
+					"Status code is 200": true,
+					"Response time is less than 3 sec": true
+				},
+				{
+					"Status code is 200": true,
+					"Response time is less than 3 sec": true
+				},
+				{
+					"Status code is 200": true,
+					"Response time is less than 3 sec": true
+				}
+			]
+		},
+		{
+			"id": "f84ea7ea-6cee-4f4f-a934-b0463cad37dd",
+			"name": "Remove from favs",
+			"url": "https://elagi.semicorner.com/api/favorites/remove/1",
+			"time": 164,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Response time is less than 3 sec": true,
+				"Product removed from favs": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 5,
+					"fail": 0
+				},
+				"Response time is less than 3 sec": {
+					"pass": 5,
+					"fail": 0
+				},
+				"Product removed from favs": {
+					"pass": 5,
+					"fail": 0
+				}
+			},
+			"times": [
+				174,
+				228,
+				184,
+				258,
+				164
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Response time is less than 3 sec": true,
+					"Product removed from favs": true
+				},
+				{
+					"Status code is 200": true,
+					"Response time is less than 3 sec": true,
+					"Product removed from favs": true
+				},
+				{
+					"Status code is 200": true,
+					"Response time is less than 3 sec": true,
+					"Product removed from favs": true
+				},
+				{
+					"Status code is 200": true,
+					"Response time is less than 3 sec": true,
+					"Product removed from favs": true
+				},
+				{
+					"Status code is 200": true,
+					"Response time is less than 3 sec": true,
+					"Product removed from favs": true
+				}
+			]
+		},
+		{
+			"id": "600769eb-3f67-4980-ad69-b47c4bb5db61",
+			"name": "add to cart1",
+			"url": "https://elagi.semicorner.com/api/cart/add",
+			"time": 220,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Response time is less than 3 sec": true,
+				"Product added to cart successfully!": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 5,
+					"fail": 0
+				},
+				"Response time is less than 3 sec": {
+					"pass": 5,
+					"fail": 0
+				},
+				"Product added to cart successfully!": {
+					"pass": 5,
+					"fail": 0
+				}
+			},
+			"times": [
+				235,
+				221,
+				253,
+				207,
+				220
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Response time is less than 3 sec": true,
+					"Product added to cart successfully!": true
+				},
+				{
+					"Status code is 200": true,
+					"Response time is less than 3 sec": true,
+					"Product added to cart successfully!": true
+				},
+				{
+					"Status code is 200": true,
+					"Response time is less than 3 sec": true,
+					"Product added to cart successfully!": true
+				},
+				{
+					"Status code is 200": true,
+					"Response time is less than 3 sec": true,
+					"Product added to cart successfully!": true
+				},
+				{
+					"Status code is 200": true,
+					"Response time is less than 3 sec": true,
+					"Product added to cart successfully!": true
+				}
+			]
+		},
+		{
+			"id": "56597844-2dfa-4930-a128-5cda03a9a32c",
+			"name": "add to cart2",
+			"url": "https://elagi.semicorner.com/api/cart/add",
+			"time": 204,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Response time is less than 3 sec": true,
+				"Product added to cart successfully!": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 5,
+					"fail": 0
+				},
+				"Response time is less than 3 sec": {
+					"pass": 5,
+					"fail": 0
+				},
+				"Product added to cart successfully!": {
+					"pass": 5,
+					"fail": 0
+				}
+			},
+			"times": [
+				168,
+				188,
+				180,
+				249,
+				204
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Response time is less than 3 sec": true,
+					"Product added to cart successfully!": true
+				},
+				{
+					"Status code is 200": true,
+					"Response time is less than 3 sec": true,
+					"Product added to cart successfully!": true
+				},
+				{
+					"Status code is 200": true,
+					"Response time is less than 3 sec": true,
+					"Product added to cart successfully!": true
+				},
+				{
+					"Status code is 200": true,
+					"Response time is less than 3 sec": true,
+					"Product added to cart successfully!": true
+				},
+				{
+					"Status code is 200": true,
+					"Response time is less than 3 sec": true,
+					"Product added to cart successfully!": true
+				}
+			]
+		},
+		{
+			"id": "b250fa26-2a74-4828-a05f-7365a8374eb6",
+			"name": "cart info",
+			"url": "https://elagi.semicorner.com/api/cart",
+			"time": 242,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				198,
+				218,
+				188,
+				188,
+				242
+			],
+			"allTests": [
+				{},
+				{},
+				{},
+				{},
+				{}
+			]
+		},
+		{
+			"id": "b0761c35-8d6b-4c3a-a405-9b78e02006fe",
+			"name": "Update cart",
+			"url": "https://elagi.semicorner.com/api/cart/3363",
+			"time": 251,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Response time is less than 3 sec": true,
+				"Cart item updated successfully": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 5,
+					"fail": 0
+				},
+				"Response time is less than 3 sec": {
+					"pass": 5,
+					"fail": 0
+				},
+				"Cart item updated successfully": {
+					"pass": 5,
+					"fail": 0
+				}
+			},
+			"times": [
+				220,
+				245,
+				218,
+				188,
+				251
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Response time is less than 3 sec": true,
+					"Cart item updated successfully": true
+				},
+				{
+					"Status code is 200": true,
+					"Response time is less than 3 sec": true,
+					"Cart item updated successfully": true
+				},
+				{
+					"Status code is 200": true,
+					"Response time is less than 3 sec": true,
+					"Cart item updated successfully": true
+				},
+				{
+					"Status code is 200": true,
+					"Response time is less than 3 sec": true,
+					"Cart item updated successfully": true
+				},
+				{
+					"Status code is 200": true,
+					"Response time is less than 3 sec": true,
+					"Cart item updated successfully": true
+				}
+			]
+		},
+		{
+			"id": "dba00d5a-c4fc-402a-9e63-02ddb6267b4b",
+			"name": "Delete from cart",
+			"url": "https://elagi.semicorner.com/api/cart/3363",
+			"time": 246,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Response time is less than 3 sec": true,
+				"Cart item removed successfully": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 5,
+					"fail": 0
+				},
+				"Response time is less than 3 sec": {
+					"pass": 5,
+					"fail": 0
+				},
+				"Cart item removed successfully": {
+					"pass": 5,
+					"fail": 0
+				}
+			},
+			"times": [
+				252,
+				361,
+				262,
+				209,
+				246
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Response time is less than 3 sec": true,
+					"Cart item removed successfully": true
+				},
+				{
+					"Status code is 200": true,
+					"Response time is less than 3 sec": true,
+					"Cart item removed successfully": true
+				},
+				{
+					"Status code is 200": true,
+					"Response time is less than 3 sec": true,
+					"Cart item removed successfully": true
+				},
+				{
+					"Status code is 200": true,
+					"Response time is less than 3 sec": true,
+					"Cart item removed successfully": true
+				},
+				{
+					"Status code is 200": true,
+					"Response time is less than 3 sec": true,
+					"Cart item removed successfully": true
+				}
+			]
+		},
+		{
+			"id": "4bee7720-0d99-40a0-8ba5-738c13f3b0dc",
+			"name": "Complete checkout",
+			"url": "https://elagi.semicorner.com/api/checkout",
+			"time": 225,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Response time is less than 3 sec": true,
+				"Order placed successfully": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 5,
+					"fail": 0
+				},
+				"Response time is less than 3 sec": {
+					"pass": 5,
+					"fail": 0
+				},
+				"Order placed successfully": {
+					"pass": 5,
+					"fail": 0
+				}
+			},
+			"times": [
+				312,
+				203,
+				205,
+				245,
+				225
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Response time is less than 3 sec": true,
+					"Order placed successfully": true
+				},
+				{
+					"Status code is 200": true,
+					"Response time is less than 3 sec": true,
+					"Order placed successfully": true
+				},
+				{
+					"Status code is 200": true,
+					"Response time is less than 3 sec": true,
+					"Order placed successfully": true
+				},
+				{
+					"Status code is 200": true,
+					"Response time is less than 3 sec": true,
+					"Order placed successfully": true
+				},
+				{
+					"Status code is 200": true,
+					"Response time is less than 3 sec": true,
+					"Order placed successfully": true
+				}
+			]
+		},
+		{
+			"id": "b280f56d-ccfc-452d-9d06-877ae580bd8f",
+			"name": "order history",
+			"url": "https://elagi.semicorner.com/api/orders",
+			"time": 240,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Response time is less than 3 sec": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 5,
+					"fail": 0
+				},
+				"Response time is less than 3 sec": {
+					"pass": 5,
+					"fail": 0
+				}
+			},
+			"times": [
+				216,
+				236,
+				193,
+				174,
+				240
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Response time is less than 3 sec": true
+				},
+				{
+					"Status code is 200": true,
+					"Response time is less than 3 sec": true
+				},
+				{
+					"Status code is 200": true,
+					"Response time is less than 3 sec": true
+				},
+				{
+					"Status code is 200": true,
+					"Response time is less than 3 sec": true
+				},
+				{
+					"Status code is 200": true,
+					"Response time is less than 3 sec": true
+				}
+			]
+		}
+	],
+	"count": 5,
+	"totalTime": 29441,
+	"collection": {
+		"requests": [
+			{
+				"id": "26096b4e-b4dc-43f0-b353-0ba6f6b727ca",
+				"method": "POST"
+			},
+			{
+				"id": "59a94ade-51ee-4759-a502-c3ac0cfc7450",
+				"method": "POST"
+			},
+			{
+				"id": "ce715590-24fd-4130-a650-f0ee57f081ac",
+				"method": "POST"
+			},
+			{
+				"id": "d9796037-e74d-403a-a3b9-7877bd69cb99",
+				"method": "POST"
+			},
+			{
+				"id": "63e709cf-a4e0-419e-90f7-af20afcef075",
+				"method": "POST"
+			},
+			{
+				"id": "68b06549-1d45-4bf7-ab8a-9bc4540c2fa3",
+				"method": "GET"
+			},
+			{
+				"id": "8793f213-efc2-48a2-a7dd-fc20ba3e78cb",
+				"method": "PUT"
+			},
+			{
+				"id": "10bed24d-7a22-4959-920c-84f12a9c1f2f",
+				"method": "GET"
+			},
+			{
+				"id": "8da75110-70ec-4b07-a54c-af958b86850e",
+				"method": "GET"
+			},
+			{
+				"id": "b0ea3378-3cbc-4798-ad78-24b06ebd133a",
+				"method": "GET"
+			},
+			{
+				"id": "05ec860e-582c-4529-88c4-d37155633f7d",
+				"method": "POST"
+			},
+			{
+				"id": "b3556401-95a1-4b4a-8d83-4f5d5bf2c690",
+				"method": "POST"
+			},
+			{
+				"id": "b1ad01a5-9ad2-419c-a0d5-a0ce8d4b6598",
+				"method": "GET"
+			},
+			{
+				"id": "2ae3121c-b0da-4af0-b1b7-46e10ff1bdb9",
+				"method": "POST"
+			},
+			{
+				"id": "3b51e3bf-a458-46f0-84ec-88a8dfad7404",
+				"method": "POST"
+			},
+			{
+				"id": "da5f9789-2c06-4944-af02-34089213ba11",
+				"method": "GET"
+			},
+			{
+				"id": "f84ea7ea-6cee-4f4f-a934-b0463cad37dd",
+				"method": "DELETE"
+			},
+			{
+				"id": "600769eb-3f67-4980-ad69-b47c4bb5db61",
+				"method": "POST"
+			},
+			{
+				"id": "56597844-2dfa-4930-a128-5cda03a9a32c",
+				"method": "POST"
+			},
+			{
+				"id": "b250fa26-2a74-4828-a05f-7365a8374eb6",
+				"method": "GET"
+			},
+			{
+				"id": "b0761c35-8d6b-4c3a-a405-9b78e02006fe",
+				"method": "PATCH"
+			},
+			{
+				"id": "dba00d5a-c4fc-402a-9e63-02ddb6267b4b",
+				"method": "DELETE"
+			},
+			{
+				"id": "4bee7720-0d99-40a0-8ba5-738c13f3b0dc",
+				"method": "POST"
+			},
+			{
+				"id": "b280f56d-ccfc-452d-9d06-877ae580bd8f",
+				"method": "GET"
+			}
+		]
+	}
+}
